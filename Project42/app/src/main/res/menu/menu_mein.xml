@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_toolbar"
+        android:icon="@mipmap/ic_ptero"
+        android:orderInCategory="1"
+        android:title="@string/library_activity"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/menu_sweem"
+        android:icon="@mipmap/ic_sweem2"
+        android:orderInCategory="1"
+        android:title="@string/see"
+        app:showAsAction="ifRoom">
+    </item>
+
+
+<!--    Меню в панели-->
+
+<!--    <group android:checkableBehavior="single">-->
+<!--        <item-->
+<!--            android:title="@string/title_panel"-->
+<!--            android:id="@+id/plant"-->
+<!--            android:icon="@mipmap/ic_plant">-->
+<!--        </item>-->
+
+<!--        <item-->
+<!--            android:title="@string/tabs_earth"-->
+<!--            android:id="@+id/earth"-->
+<!--            android:icon="@mipmap/ic_earth">-->
+<!--        </item>-->
+
+<!--        <item-->
+<!--            android:title="@string/tabs_records"-->
+<!--            android:id="@+id/records"-->
+<!--            android:icon="@mipmap/ic_records">-->
+<!--        </item>-->
+
+<!--        <item-->
+<!--            android:title="@string/tabs_finds"-->
+<!--            android:id="@+id/finds"-->
+<!--            android:icon="@mipmap/ic_finds">-->
+<!--        </item>-->
+
+<!--    </group>-->
+
+<!--        <item android:title="@string/tabs_other"></item>-->
+
+<!--    <menu>-->
+
+<!--        <item-->
+<!--            android:title="@string/tabs_favor"-->
+<!--            android:id="@+id/favor"-->
+<!--            android:icon="@mipmap/ic_favor">-->
+<!--        </item>-->
+
+<!--        <item-->
+<!--            android:title="@string/tabs_exit"-->
+<!--            android:id="@+id/exit"-->
+<!--            android:icon="@mipmap/ic_exit">-->
+<!--        </item>-->
+
+<!--    </menu>-->
+
+</menu>

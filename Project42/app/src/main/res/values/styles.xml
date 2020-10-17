@@ -1,0 +1,31 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/down</item>
+        <item name="colorPrimaryDark">@color/up</item>
+        <item name="colorAccent">@color/down</item>
+    </style>
+
+
+    <style name="TriasTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/blueBlack</item>
+        <item name="colorPrimaryDark">@color/blueDark</item>
+        <item name="colorAccent">@color/blueDark</item>
+    </style>
+
+
+    <style name="UrsTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/greenBlack</item>
+        <item name="colorPrimaryDark">@color/greenDark</item>
+        <item name="colorAccent">@color/greenDark</item>
+    </style>
+
+
+    <style name="MelTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/redBlack</item>
+        <item name="colorPrimaryDark">@color/redDark</item>
+        <item name="colorAccent">@color/redDark</item>
+    </style>
+
+</resources>

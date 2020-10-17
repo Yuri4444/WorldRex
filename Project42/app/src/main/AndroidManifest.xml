@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hfag.project42">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SweemActivity"></activity>
+        <activity android:name=".nav_panel.ArchiologActivity"></activity>
+        <activity
+            android:name=".nav_panel.RecordsActivity"
+            android:label="@string/tabs_records"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".nav_panel.EarthActivity"
+            android:label="@string/tabs_earth"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".nav_panel.PlantActivity"
+            android:label="@string/tabs_plant"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".melEra.MelDetailsActivity"
+            android:label="@string/mel_tabs"
+            android:theme="@style/MelTheme" />
+        <activity
+            android:name=".ursEra.UrsDetailsActivity"
+            android:label="@string/urs_tabs"
+            android:theme="@style/UrsTheme" />
+        <activity
+            android:name=".triasEra.TriasDetaisActivity"
+            android:label="@string/title_trias"
+            android:theme="@style/TriasTheme" />
+        <activity
+            android:name=".LibraryActivity"
+            android:label="@string/library_activity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <color name="up">#056102</color>
+    <color name="down">#26A802</color>
+
+
+
+    <color name="yellow">#F4EC4C</color>
+    <color name="blue">#07DCE3</color>
+    <color name="green">#EFB7D1</color>
+
+
+
+
+
+<!--    Триасский период-->
+    <color name="blueBlack">#020D51</color>
+    <color name="blueDark">#0A0ACD</color>
+<!--    Юрский период-->
+    <color name="greenBlack">#052B02</color>
+    <color name="greenDark">#044704</color>
+<!--    Меловой период-->
+    <color name="redBlack">#5E0707</color>
+    <color name="redDark">#8F0202</color>
+
+
+
+    <color name="braun">#291105</color>
+</resources>
